@@ -17,8 +17,8 @@ pip install Toggle
 
 #Running 
 ```
-from Toggle import Toggle
-Toggle("My StriNg")
+from Toggle.Toggle import Toggle
+Toggle("My StriNg",choice) #default choice is 0
 ```
 
 Syntax:
