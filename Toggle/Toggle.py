@@ -14,4 +14,4 @@ class Toggle:
                     self.string1 = self.string1 + chr((ord(i) - 32))
                 else:
                     self.string1 = self.string1 + i
-        print(self.string1)
+        return self.string1
