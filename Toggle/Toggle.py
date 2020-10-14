@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[58]:
+
+
 # Python Package to Toggle Characters Case in a String by JKL404
  
 class Toggle:
@@ -72,3 +78,5 @@ class Toggle:
                     else:
                         self.string1 = self.string1 + self.string[i]
         return self.string1
+#print(Toggle("JokER beautiful",4))
+
