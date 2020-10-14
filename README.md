@@ -10,6 +10,8 @@ Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):
 
 ```bash
 pip install git+https://github.com/JKL404/Toggle.git
+#or
+pip install Toggle
 
 ```
 
