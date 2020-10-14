@@ -11,7 +11,7 @@ setup(
     # Needed for dependencies
     #install_requires=['numpy'],
     # *strongly* suggested for sharing
-    version='0.1',
+    version='1.1',
     # The license can be anything you like
     license='JKL404',
     description='Toggle is a python package for string to toggle the given string',
