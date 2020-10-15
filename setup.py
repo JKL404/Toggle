@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Toggle", # Replace with your own username
-    version="1.1.0",
+    version="1.1.1",
     author="Laxman Khatri",
     author_email="hackerlaxu@gmail.com",
     description="Toggle is a python package for string to toggle the given string",
