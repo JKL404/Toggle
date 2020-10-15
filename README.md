@@ -48,6 +48,7 @@ __________________
   - **output:** Joker Beautiful
   
   
-  
-  *** Dedication ***
-  
+  ____________________________
+## ***Thanks :blush:***
+  :heartbeat: Nakali :kissing_heart:
+    PM  :heartpulse:
