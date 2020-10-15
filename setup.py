@@ -1,20 +1,22 @@
-from setuptools import setup
+import setuptools
 
-setup(
-    # Needed to silence warnings (and to be a worthwhile package)
-    name='Toggle',
-    url='https://github.com/JKL404/Toggle',
-    author='Laxman Khatri',
-    author_email='hackerlaxu@gmail.com',
-    # Needed to actually package something
-    packages=['Toggle'],
-    # Needed for dependencies
-    #install_requires=['numpy'],
-    # *strongly* suggested for sharing
-    version='1.1',
-    # The license can be anything you like
-    license='JKL404',
-    description='Toggle is a python package for string to toggle the given string',
-    # We will also need a readme eventually (there will be a warning)
-    # long_description=open('README.txt').read(),
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="Toggle", # Replace with your own username
+    version="1.1.0",
+    author="Laxman Khatri",
+    author_email="hackerlaxu@gmail.com",
+    description="Toggle is a python package for string to toggle the given string",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/JKL404/Toggle",
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
 )
