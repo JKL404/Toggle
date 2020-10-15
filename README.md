@@ -1,7 +1,8 @@
 # Toggle
-Toggle is a python package for string to toggle the string
+Toggle is a python package for string to toggle the given string.
 
-[![image](https://img.shields.io/pypi/v/py-package-template.svg)](https://pypi.org/project/Toggle/)
+
+[![version](https://img.shields.io/badge/version-1.0.1-yellow.svg)](https://pypi.org/project/Toggle/)
 [![Build Status](https://travis-ci.org/AlexIoannides/py-package-template.svg?branch=master)](https://pypi.org/project/Toggle/)
 
 ## Installing
@@ -15,33 +16,38 @@ pip install Toggle
 
 ```
 
-#Running 
+**Running:**
 ```
 from Toggle.Toggle import Toggle
 Toggle("My StriNg",choice) #default choice is 0
 ```
 
-Syntax:
+**Syntax:**
 ```
 Toggle(string, choice)
 ```
-Example:
+**Example:**
 ```
-Toggle("JokER beautiful",choice)
+Toggle("JokER beautiful",0)
 ```
-Added Choice Option:
+***Choice Option:***
 __________________
-(0): Default 
-output:  jOKer BEAUTIFUL
+* ***(0): Default***
+   - **output:**  jOKer BEAUTIFUL
 
-(1): Toggle with lowerUPPERlowerUPPER ....
-output: jOkEr BeAuTiFuL
+* ***(1): Toggle with lower_UPPER_lower_UPPER ..***
+   - **output:** jOkEr BeAuTiFuL
 
-(2): Toggle with UPPERlowerUPPERlower ....
-output: JoKeR bEaUtIfUl
+* ***(2): Toggle with UPPER_lower_UPPER_lower ....***
+  - **output:** JoKeR bEaUtIfUl
 
-(3): Toggle with lowerUPPERUPPER  lowerUPPERUPPER ....
-output: jOKER bEAUTIFUL
+* ***(3): Toggle with lower_UPPER_UPPER  lower_UPPER_UPPER ....***
+  - **output:** jOKER bEAUTIFUL
 
-(4): Toggle with UPPERlowerlower  UPPERlowerlower ....
-output: Joker Beautiful
+* ***(4): Toggle with UPPER_lower_lower  UPPER_lower_lower ....***
+  - **output:** Joker Beautiful
+  
+  
+  
+  *** Dedication ***
+  
