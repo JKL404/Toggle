@@ -54,8 +54,8 @@ class Toggle:
                         else:
                             self.string1 = self.string1 + self.string[i]
                     elif self.string[i-1]==" ":
-                        if(ord(self.string[i+1]) >= 65 and ord(self.string[i+1]) <= 90): 
-                            self.string1 = self.string1 + chr((ord(self.string[i+1]) + 32))
+                        if(ord(self.string[i]) >= 65 and ord(self.string[i]) <= 90): 
+                            self.string1 = self.string1 + chr((ord(self.string[i]) + 32))
                         else:
                             self.string1 = self.string1 + self.string[i]
                     elif(ord(self.string[i]) >= 97 and ord(self.string[i]) <= 122):
