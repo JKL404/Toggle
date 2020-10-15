@@ -2,7 +2,7 @@
 Toggle is a python package for string to toggle the given string.
 
 
-[![version](https://img.shields.io/badge/version-1.1.1-yellow.svg)](https://pypi.org/project/Toggle/)
+[![version](https://img.shields.io/badge/version-1.1.2-yellow.svg)](https://pypi.org/project/Toggle/)
 [![Build Status](https://travis-ci.org/AlexIoannides/py-package-template.svg?branch=master)](https://pypi.org/project/Toggle/)
 
 ## Installing
