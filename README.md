@@ -7,7 +7,7 @@ Toggle is a python package for string to toggle the given string.
 
 ## Installing
 
-Install and update using [pip](https://pip.pypa.io/en/stable/quickstart/):
+Install and update using [pip](https://pypi.org/project/Toggle/):
 
 ```bash
 pip install git+https://github.com/JKL404/Toggle.git
